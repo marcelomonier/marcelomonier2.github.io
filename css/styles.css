@@ -329,6 +329,18 @@ button,
 select {
   text-transform: none;
 }
+.fa{
+  display:inline-block;
+  font:normal normal normal 14px/1 FontAwesome;
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale
+}
+
+.fa-whatsapp:before{
+  content:"\f232"
+}
 
 [role=button] {
   cursor: pointer;
@@ -10864,14 +10876,20 @@ html {
   letter-spacing: 0.1rem;
 }
 
+.fundosite{
+
+  background-image: url("../assets/img/back1.png");
+}
+
 header.masthead {
   position: relative;
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-image: url(../assets/img/back1.png);
+  /* background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);*/
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center center; 
   background-attachment: scroll;
   background-size: cover;
 }
